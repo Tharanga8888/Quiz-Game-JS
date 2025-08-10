@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="header">
+      <h1>🧠 Quiz App</h1>
+      <button id="theme-toggle">🌙</button>
+    </div>
+
+    <div id="progress">Question 1 of 3</div>
+    <div id="progress-bar"><div id="bar"></div></div>
+
+    <div id="question-container">
+      <p id="question">Loading question...</p>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <p id="score-container"></p>
+    <button id="restart-btn" style="display: none;">Restart Quiz</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
